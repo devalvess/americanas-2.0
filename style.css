@@ -1,0 +1,195 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo-inicial {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    padding: 40px;
+    background-color: red;
+    border: 0;
+}
+
+#americanas {
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.descricao {
+    text-align: center;
+    margin: 30px 0px 0px 20px;
+    color: gray; 
+}
+
+.descricao h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.descricao h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.descricao h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.sessao-formulario {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color:gray;
+}
+
+.form-primeiro  input {
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: grey;
+}
+
+.form-segundo p {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 100;
+    color: grey;
+}
+
+.form-segundo input {
+    width: 25px;
+    height: 25px;
+}
+
+.form-segundo input:hover {
+    width: 50px;
+    height: 50px;
+}
+
+
+.form-terceiro p {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 100;
+    color:grey;
+}
+
+.form-terceiro input {
+    width:100px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: grey;
+}
+
+.form-quarto p {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 100;
+    color: grey;
+}
+
+.form-quarto input {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: grey;
+}
+
+a {
+    color: grey;
+}
+
+.form-sexto p {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 100;
+    color: grey;
+}
+
+.form-sexto input {
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px 0px 20px 0px;
+    border-color: grey;
+}
+
+.form-setimo {
+    color: grey;
+}
+
+.form-oitavo p {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 100;
+    color: grey;
+}
+
+
+.emailum {
+    width: 400px;
+    height: 50px;
+    margin: 5px 0px 20px 0px;
+    border-radius: 10px;
+    border-color: grey;
+}
+
+.form-nono p {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 100;
+    color: grey;
+}
+
+.form-nono input {
+    width: 400px;
+    height: 50px;
+    margin: 5px 0px 20px 0px;
+    border-radius: 10px; 
+    border-color: grey;
+}
+
+.form-dez {
+    margin: 0px 0px 50px 0px ;
+    color: grey;
+    text-align: justify;
+} 
+
+.botao > input{
+    width:500px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botao > input:hover {
+    width: 600px;
+    height: 70px;
+    background-color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-politica p {
+    text-align: center;
+}
+
+.form {
+    text-align:center;
+}
